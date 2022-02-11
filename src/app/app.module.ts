@@ -7,6 +7,8 @@ import {ServerComponent} from "./components/server/app.component";
 import { ServersComponent } from './servers/servers.component';
 import {WarningComponent} from "./warning-alert/warning.component";
 import {SuccessComponent} from "./success-alert/success.component";
+import {FormsModule} from "@angular/forms";
+import {UsernameComponent} from "./username-update/username.component";
 
 
 
@@ -16,10 +18,12 @@ import {SuccessComponent} from "./success-alert/success.component";
     ServerComponent,
     ServersComponent,
     WarningComponent,
-    SuccessComponent
+    SuccessComponent,
+    UsernameComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
