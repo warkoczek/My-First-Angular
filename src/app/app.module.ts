@@ -9,6 +9,7 @@ import {WarningComponent} from "./warning-alert/warning.component";
 import {SuccessComponent} from "./success-alert/success.component";
 import {FormsModule} from "@angular/forms";
 import {UsernameComponent} from "./username-update/username.component";
+import {DisplayDetailsComponent} from "./display-details/display-details.component";
 
 
 
@@ -19,7 +20,8 @@ import {UsernameComponent} from "./username-update/username.component";
     ServersComponent,
     WarningComponent,
     SuccessComponent,
-    UsernameComponent
+    UsernameComponent,
+    DisplayDetailsComponent
   ],
   imports: [
     BrowserModule,
