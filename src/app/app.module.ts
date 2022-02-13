@@ -3,25 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 
 import { AppComponent } from './app.component';
-import {ServerComponent} from "./components/server/app.component";
-import { ServersComponent } from './servers/servers.component';
-import {WarningComponent} from "./warning-alert/warning.component";
-import {SuccessComponent} from "./success-alert/success.component";
+
 import {FormsModule} from "@angular/forms";
-import {UsernameComponent} from "./username-update/username.component";
-import {DisplayDetailsComponent} from "./display-details/display-details.component";
+
+import {HeaderComponent} from "./header/header.component";
+import { RecipeComponent } from './recipe/recipe.component';
+import { RecipeListComponent } from './recipe-list/recipe-list.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent,
-    ServersComponent,
-    WarningComponent,
-    SuccessComponent,
-    UsernameComponent,
-    DisplayDetailsComponent
+    HeaderComponent,
+    RecipeComponent,
+    RecipeListComponent
   ],
   imports: [
     BrowserModule,
