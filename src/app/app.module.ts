@@ -8,6 +8,7 @@ import {FormsModule} from "@angular/forms";
 
 import {HeaderComponent} from "./header/header.component";
 import { RecipeComponent } from './recipe/recipe.component';
+// @ts-ignore
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 
 
